@@ -1,0 +1,4764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - zamger@localhost" uuid="0f4d7b54-968d-4966-80d9-91cf0bac2250">
+    <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="zamger"/>
+      <table id="2" parent="1" name="acl"/>
+      <table id="3" parent="1" name="acl_tip"/>
+      <table id="4" parent="1" name="acl_url"/>
+      <table id="5" parent="1" name="akademska_godina"/>
+      <table id="6" parent="1" name="akademska_godina_predmet"/>
+      <table id="7" parent="1" name="angazman"/>
+      <table id="8" parent="1" name="angazman_status"/>
+      <table id="9" parent="1" name="anketa_anketa"/>
+      <table id="10" parent="1" name="anketa_izbori_pitanja"/>
+      <table id="11" parent="1" name="anketa_odgovor_rank"/>
+      <table id="12" parent="1" name="anketa_odgovor_text"/>
+      <table id="13" parent="1" name="anketa_pitanje"/>
+      <table id="14" parent="1" name="anketa_predmet"/>
+      <table id="15" parent="1" name="anketa_rezultat"/>
+      <table id="16" parent="1" name="anketa_student_zavrsio"/>
+      <table id="17" parent="1" name="anketa_tip_pitanja"/>
+      <table id="18" parent="1" name="auth"/>
+      <table id="19" parent="1" name="autotest"/>
+      <table id="20" parent="1" name="autotest_replace"/>
+      <table id="21" parent="1" name="autotest_rezultat"/>
+      <table id="22" parent="1" name="bb_post"/>
+      <table id="23" parent="1" name="bb_post_text"/>
+      <table id="24" parent="1" name="bb_tema"/>
+      <table id="25" parent="1" name="bl_clanak"/>
+      <table id="26" parent="1" name="buildservice_tracking"/>
+      <table id="27" parent="1" name="cas"/>
+      <table id="28" parent="1" name="cron"/>
+      <table id="29" parent="1" name="cron_rezultat"/>
+      <table id="30" parent="1" name="drzava"/>
+      <table id="31" parent="1" name="ekstenzije"/>
+      <table id="32" parent="1" name="email"/>
+      <table id="33" parent="1" name="hr_kompetencije"/>
+      <table id="34" parent="1" name="hr_mentorstvo"/>
+      <table id="35" parent="1" name="hr_nagrade_priznanja"/>
+      <table id="36" parent="1" name="hr_naucni_radovi"/>
+      <table id="37" parent="1" name="hr_publikacija"/>
+      <table id="38" parent="1" name="hr_radno_iskustvo"/>
+      <table id="39" parent="1" name="hr_usavrsavanje"/>
+      <table id="40" parent="1" name="institucija"/>
+      <table id="41" parent="1" name="ispit"/>
+      <table id="42" parent="1" name="ispit_termin"/>
+      <table id="43" parent="1" name="ispitocjene"/>
+      <table id="44" parent="1" name="izbor"/>
+      <table id="45" parent="1" name="izborni_slot"/>
+      <table id="46" parent="1" name="kanton"/>
+      <table id="47" parent="1" name="kolizija"/>
+      <table id="48" parent="1" name="komentar"/>
+      <table id="49" parent="1" name="komponenta"/>
+      <table id="50" parent="1" name="komponentebodovi"/>
+      <table id="51" parent="1" name="konacna_ocjena"/>
+      <table id="52" parent="1" name="kviz"/>
+      <table id="53" parent="1" name="kviz_odgovor"/>
+      <table id="54" parent="1" name="kviz_pitanje"/>
+      <table id="55" parent="1" name="kviz_student"/>
+      <table id="56" parent="1" name="labgrupa"/>
+      <table id="57" parent="1" name="log"/>
+      <table id="58" parent="1" name="mjesto"/>
+      <table id="59" parent="1" name="moodle_predmet_id"/>
+      <table id="60" parent="1" name="moodle_predmet_rss"/>
+      <table id="61" parent="1" name="nacin_studiranja"/>
+      <table id="62" parent="1" name="nacionalnost"/>
+      <table id="63" parent="1" name="nastavnik_predmet"/>
+      <table id="64" parent="1" name="odluka"/>
+      <table id="65" parent="1" name="ogranicenje"/>
+      <table id="66" parent="1" name="opcina"/>
+      <table id="67" parent="1" name="osoba"/>
+      <table id="68" parent="1" name="plan_studija"/>
+      <table id="69" parent="1" name="ponudakursa"/>
+      <table id="70" parent="1" name="poruka"/>
+      <table id="71" parent="1" name="predmet"/>
+      <table id="72" parent="1" name="predmet_projektni_parametri"/>
+      <table id="73" parent="1" name="preference"/>
+      <table id="74" parent="1" name="prijemni_obrazac"/>
+      <table id="75" parent="1" name="prijemni_prijava"/>
+      <table id="76" parent="1" name="prijemni_termin"/>
+      <table id="77" parent="1" name="prisustvo"/>
+      <table id="78" parent="1" name="privilegije"/>
+      <table id="79" parent="1" name="priznavanje"/>
+      <table id="80" parent="1" name="programskijezik"/>
+      <table id="81" parent="1" name="projekat"/>
+      <table id="82" parent="1" name="projekat_file"/>
+      <table id="83" parent="1" name="projekat_file_diff"/>
+      <table id="84" parent="1" name="projekat_link"/>
+      <table id="85" parent="1" name="projekat_rss"/>
+      <table id="86" parent="1" name="promjena_odsjeka"/>
+      <table id="87" parent="1" name="promjena_podataka"/>
+      <table id="88" parent="1" name="prosliciklus_ocjene"/>
+      <table id="89" parent="1" name="prosliciklus_uspjeh"/>
+      <table id="90" parent="1" name="ras_sati"/>
+      <table id="91" parent="1" name="raspored"/>
+      <table id="92" parent="1" name="raspored_sala"/>
+      <table id="93" parent="1" name="raspored_stavka"/>
+      <table id="94" parent="1" name="rss"/>
+      <table id="95" parent="1" name="savjet_dana"/>
+      <table id="96" parent="1" name="septembar"/>
+      <table id="97" parent="1" name="sifrarnik_akademsko_zvanje"/>
+      <table id="98" parent="1" name="sifrarnik_banka"/>
+      <table id="99" parent="1" name="sifrarnik_fakulteti"/>
+      <table id="100" parent="1" name="sifrarnik_fascati"/>
+      <table id="101" parent="1" name="sifrarnik_fascati_podoblast"/>
+      <table id="102" parent="1" name="sifrarnik_jezik"/>
+      <table id="103" parent="1" name="sifrarnik_nacin_stanovanja"/>
+      <table id="104" parent="1" name="sifrarnik_naucna_oblast"/>
+      <table id="105" parent="1" name="sifrarnik_naucni_stepen"/>
+      <table id="106" parent="1" name="sifrarnik_naucnonastavno_zvanje"/>
+      <table id="107" parent="1" name="sifrarnik_nivo_jezika"/>
+      <table id="108" parent="1" name="sifrarnik_oblik_zaposlenja"/>
+      <table id="109" parent="1" name="sifrarnik_radno_mjesto"/>
+      <table id="110" parent="1" name="sifrarnik_strucna_sprema"/>
+      <table id="111" parent="1" name="sifrarnik_tip_mentorstva"/>
+      <table id="112" parent="1" name="sifrarnik_tip_publikacije"/>
+      <table id="113" parent="1" name="sifrarnik_uza_naucna_oblast"/>
+      <table id="114" parent="1" name="sifrarnik_vozacki_kategorija"/>
+      <table id="115" parent="1" name="srednja_ocjene"/>
+      <table id="116" parent="1" name="srednja_skola"/>
+      <table id="117" parent="1" name="stdin"/>
+      <table id="118" parent="1" name="student_ispit_termin"/>
+      <table id="119" parent="1" name="student_labgrupa"/>
+      <table id="120" parent="1" name="student_predmet"/>
+      <table id="121" parent="1" name="student_projekat"/>
+      <table id="122" parent="1" name="student_studij"/>
+      <table id="123" parent="1" name="studentski_modul"/>
+      <table id="124" parent="1" name="studentski_modul_predmet"/>
+      <table id="125" parent="1" name="studij"/>
+      <table id="126" parent="1" name="svrha_potvrde"/>
+      <table id="127" parent="1" name="tip_potvrde"/>
+      <table id="128" parent="1" name="tipkomponente"/>
+      <table id="129" parent="1" name="tippredmeta"/>
+      <table id="130" parent="1" name="tippredmeta_komponenta"/>
+      <table id="131" parent="1" name="tipstudija"/>
+      <table id="132" parent="1" name="ugovoroucenju"/>
+      <table id="133" parent="1" name="ugovoroucenju_izborni"/>
+      <table id="134" parent="1" name="ugovoroucenju_kapacitet"/>
+      <table id="135" parent="1" name="upis_kriterij">
+        <comment>Tabela za pohranu kriterija za upis</comment>
+      </table>
+      <table id="136" parent="1" name="uspjeh_u_srednjoj"/>
+      <table id="137" parent="1" name="vozacka_dozvola"/>
+      <table id="138" parent="1" name="ws_oauth_request"/>
+      <table id="139" parent="1" name="ws_session"/>
+      <table id="140" parent="1" name="zadaca"/>
+      <table id="141" parent="1" name="zadatak"/>
+      <table id="142" parent="1" name="zadatakdiff"/>
+      <table id="143" parent="1" name="zahtjev_za_potvrdu"/>
+      <table id="144" parent="1" name="zavrsni"/>
+      <table id="145" parent="1" name="zavrsni_bb_post"/>
+      <table id="146" parent="1" name="zavrsni_bb_post_text"/>
+      <table id="147" parent="1" name="zavrsni_bb_tema"/>
+      <table id="148" parent="1" name="zavrsni_file"/>
+      <table id="149" parent="1" name="zavrsni_file_diff"/>
+      <table id="150" parent="1" name="zavrsni_rad_predmet"/>
+      <column id="151" parent="2" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="152" parent="2" name="acl_tip">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="153" parent="2" name="predikat1">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="154" parent="2" name="predikat2">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="155" parent="2" name="predikat3">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="156" parent="2" name="acl_tip">
+        <columns>acl_tip</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="157" parent="2" name="osoba">
+        <columns>osoba
+acl_tip</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <column id="158" parent="3" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="159" parent="3" name="br_predikata">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="160" parent="3" name="predikat1">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="161" parent="3" name="predikat2">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="162" parent="3" name="predikat3">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <key id="163" parent="3" name="PRIMARY">
+        <columns>naziv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="164" parent="4" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="165" parent="4" name="url">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <index id="166" parent="4" name="osoba">
+        <columns>osoba
+url</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="167" parent="4" name="acl_url_ibfk_1">
+        <columns>osoba</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="168" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="169" parent="5" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="170" parent="5" name="aktuelna">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="171" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="172" parent="6" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="173" parent="6" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="174" parent="6" name="tippredmeta">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="175" parent="6" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="176" parent="6" name="PRIMARY">
+        <columns>akademska_godina
+predmet</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="177" parent="6" name="akademska_godina_predmet_ibfk_1">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="178" parent="6" name="akademska_godina_predmet_ibfk_2">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="179" parent="7" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="180" parent="7" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="181" parent="7" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="182" parent="7" name="angazman_status">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="183" parent="7" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="184" parent="7" name="angazman_status">
+        <columns>angazman_status</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="185" parent="7" name="osoba">
+        <columns>osoba</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="186" parent="7" name="PRIMARY">
+        <columns>predmet
+akademska_godina
+osoba</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="187" parent="7" name="angazman_ibfk_10">
+        <columns>osoba</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="188" parent="7" name="angazman_ibfk_11">
+        <columns>angazman_status</columns>
+        <ref-key>~.angazman_status.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="189" parent="7" name="angazman_ibfk_8">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="190" parent="7" name="angazman_ibfk_9">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="191" parent="8" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="192" parent="8" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="193" parent="8" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="194" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="195" parent="9" name="datum_otvaranja">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="196" parent="9" name="datum_zatvaranja">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="197" parent="9" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>char(255)</data-type>
+      </column>
+      <column id="198" parent="9" name="opis">
+        <data-type>text</data-type>
+      </column>
+      <column id="199" parent="9" name="aktivna">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="200" parent="9" name="editable">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="201" parent="9" name="akademska_godina">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="202" parent="9" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="203" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="204" parent="9" name="anketa_anketa_ibfk_1">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="205" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="206" parent="10" name="pitanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="207" parent="10" name="izbor">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <index id="208" parent="10" name="pitanje">
+        <columns>pitanje</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="209" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="210" parent="10" name="anketa_izbori_pitanja_ibfk_1">
+        <columns>pitanje</columns>
+        <ref-key>~.anketa_pitanje.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="211" parent="11" name="rezultat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="212" parent="11" name="pitanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="213" parent="11" name="izbor_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="214" parent="11" name="pitanje">
+        <columns>pitanje</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="215" parent="11" name="rezultat">
+        <columns>rezultat</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="216" parent="11" name="PRIMARY">
+        <columns>rezultat
+pitanje
+izbor_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="217" parent="11" name="anketa_odgovor_rank_ibfk_2">
+        <columns>rezultat</columns>
+        <ref-key>~.anketa_rezultat.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="218" parent="11" name="anketa_odgovor_rank_ibfk_3">
+        <columns>pitanje</columns>
+        <ref-key>~.anketa_pitanje.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="219" parent="12" name="rezultat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="220" parent="12" name="pitanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="221" parent="12" name="odgovor">
+        <data-type>text</data-type>
+      </column>
+      <index id="222" parent="12" name="pitanje">
+        <columns>pitanje</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="223" parent="12" name="PRIMARY">
+        <columns>rezultat
+pitanje</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="224" parent="12" name="anketa_odgovor_text_ibfk_2">
+        <columns>rezultat</columns>
+        <ref-key>~.anketa_rezultat.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="225" parent="12" name="anketa_odgovor_text_ibfk_3">
+        <columns>pitanje</columns>
+        <ref-key>~.anketa_pitanje.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="226" parent="13" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="227" parent="13" name="anketa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="228" parent="13" name="tip_pitanja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="229" parent="13" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <index id="230" parent="13" name="anketa">
+        <columns>anketa</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="231" parent="13" name="tip_pitanja">
+        <columns>tip_pitanja</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="232" parent="13" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="233" parent="13" name="anketa_pitanje_ibfk_1">
+        <columns>anketa</columns>
+        <ref-key>~.anketa_anketa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="234" parent="13" name="anketa_pitanje_ibfk_2">
+        <columns>tip_pitanja</columns>
+        <ref-key>~.anketa_tip_pitanja.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="235" parent="14" name="anketa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="236" parent="14" name="predmet">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="237" parent="14" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="238" parent="14" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="239" parent="14" name="aktivna">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <index id="240" parent="14" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="241" parent="14" name="anketa">
+        <columns>anketa</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="242" parent="14" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="243" parent="14" name="anketa_predmet_ibfk_1">
+        <columns>anketa</columns>
+        <ref-key>~.anketa_anketa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="244" parent="14" name="anketa_predmet_ibfk_2">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="245" parent="14" name="anketa_predmet_ibfk_3">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="246" parent="15" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="247" parent="15" name="anketa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="248" parent="15" name="zavrsena">
+        <data-type>enum(&apos;Y&apos;, &apos;N&apos;)</data-type>
+        <default-expression>&apos;N&apos;</default-expression>
+      </column>
+      <column id="249" parent="15" name="predmet">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="250" parent="15" name="unique_id">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="251" parent="15" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="252" parent="15" name="studij">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="253" parent="15" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="254" parent="15" name="student">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="255" parent="15" name="labgrupa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="256" parent="15" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="257" parent="15" name="student">
+        <columns>student</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="258" parent="15" name="studij">
+        <columns>studij</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="259" parent="15" name="unique_id">
+        <columns>unique_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="260" parent="15" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="261" parent="16" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="262" parent="16" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="263" parent="16" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="264" parent="16" name="anketa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="265" parent="16" name="zavrsena">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;Y&apos;, &apos;N&apos;)</data-type>
+        <default-expression>&apos;N&apos;</default-expression>
+      </column>
+      <column id="266" parent="16" name="anketa_rezultat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="267" parent="16" name="PRIMARY">
+        <columns>student
+predmet
+akademska_godina
+anketa</columns>
+        <primary>1</primary>
+      </key>
+      <column id="268" parent="17" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="269" parent="17" name="tip">
+        <mandatory>1</mandatory>
+        <data-type>char(32)</data-type>
+      </column>
+      <column id="270" parent="17" name="postoji_izbor">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;Y&apos;, &apos;N&apos;)</data-type>
+      </column>
+      <column id="271" parent="17" name="tabela_odgovora">
+        <mandatory>1</mandatory>
+        <data-type>char(32)</data-type>
+      </column>
+      <key id="272" parent="17" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="273" parent="18" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="274" parent="18" name="login">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="275" parent="18" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="276" parent="18" name="admin">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="277" parent="18" name="external_id">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="278" parent="18" name="aktivan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="279" parent="18" name="posljednji_pristup">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="280" parent="18" name="PRIMARY">
+        <columns>id
+login</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="281" parent="18" name="auth_ibfk_1">
+        <columns>id</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="282" parent="19" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="283" parent="19" name="zadaca">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="284" parent="19" name="zadatak">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="285" parent="19" name="kod">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="286" parent="19" name="rezultat">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="287" parent="19" name="alt_rezultat">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="288" parent="19" name="fuzzy">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="289" parent="19" name="global_scope">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="290" parent="19" name="pozicija_globala">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;prije_svega&apos;, &apos;prije_maina&apos;)</data-type>
+        <default-expression>&apos;prije_maina&apos;</default-expression>
+      </column>
+      <column id="291" parent="19" name="stdin">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="292" parent="19" name="partial_match">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="293" parent="19" name="aktivan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="294" parent="19" name="sakriven">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="295" parent="19" name="zadaca">
+        <columns>zadaca</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="296" parent="19" name="zadaca_2">
+        <columns>zadaca
+zadatak</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="297" parent="19" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="298" parent="19" name="autotest_ibfk_1">
+        <columns>zadaca</columns>
+        <ref-key>~.zadaca.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="299" parent="20" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="300" parent="20" name="zadaca">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="301" parent="20" name="zadatak">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="302" parent="20" name="tip">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;funkcija&apos;, &apos;klasa&apos;, &apos;metoda&apos;)</data-type>
+      </column>
+      <column id="303" parent="20" name="specifikacija">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="304" parent="20" name="zamijeni">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <index id="305" parent="20" name="zadaca">
+        <columns>zadaca</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="306" parent="20" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="307" parent="20" name="autotest_replace_ibfk_1">
+        <columns>zadaca</columns>
+        <ref-key>~.zadaca.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="308" parent="21" name="autotest">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="309" parent="21" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="310" parent="21" name="izlaz_programa">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="311" parent="21" name="status">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;ok&apos;, &apos;wrong&apos;, &apos;error&apos;, &apos;no_func&apos;, &apos;exec_fail&apos;, &apos;too_long&apos;, &apos;crash&apos;, &apos;find_fail&apos;, &apos;oob&apos;, &apos;uninit&apos;, &apos;memleak&apos;, &apos;invalid_free&apos;, &apos;mismatched_free&apos;)</data-type>
+        <default-expression>&apos;error&apos;</default-expression>
+      </column>
+      <column id="312" parent="21" name="nalaz">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="313" parent="21" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="314" parent="21" name="trajanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="315" parent="21" name="testni_sistem">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <index id="316" parent="21" name="student">
+        <columns>student</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="317" parent="21" name="PRIMARY">
+        <columns>autotest
+student</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="318" parent="21" name="autotest_rezultat_ibfk_1">
+        <columns>student</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="319" parent="22" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="320" parent="22" name="naslov">
+        <mandatory>1</mandatory>
+        <data-type>varchar(300)</data-type>
+      </column>
+      <column id="321" parent="22" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="322" parent="22" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="323" parent="22" name="tema">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="324" parent="22" name="osoba">
+        <columns>osoba</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="325" parent="22" name="tema">
+        <columns>tema</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="326" parent="22" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="327" parent="22" name="bb_post_ibfk_1">
+        <columns>osoba</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="328" parent="22" name="bb_post_ibfk_2">
+        <columns>tema</columns>
+        <ref-key>~.bb_tema.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="329" parent="23" name="post">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="330" parent="23" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="331" parent="23" name="PRIMARY">
+        <columns>post</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="332" parent="23" name="bb_post_text_ibfk_1">
+        <columns>post</columns>
+        <ref-key>~.bb_post.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="333" parent="24" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="334" parent="24" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="335" parent="24" name="prvi_post">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="336" parent="24" name="zadnji_post">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="337" parent="24" name="pregleda">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="338" parent="24" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="339" parent="24" name="projekat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="340" parent="24" name="osoba">
+        <columns>osoba</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="341" parent="24" name="projekat">
+        <columns>projekat</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="342" parent="24" name="prvi_post">
+        <columns>prvi_post</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="343" parent="24" name="zadnji_post">
+        <columns>zadnji_post</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="344" parent="24" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="345" parent="24" name="bb_tema_ibfk_1">
+        <columns>prvi_post</columns>
+        <ref-key>~.bb_post.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="346" parent="24" name="bb_tema_ibfk_2">
+        <columns>zadnji_post</columns>
+        <ref-key>~.bb_post.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="347" parent="24" name="bb_tema_ibfk_3">
+        <columns>osoba</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="348" parent="24" name="bb_tema_ibfk_4">
+        <columns>projekat</columns>
+        <ref-key>~.projekat.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="349" parent="25" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="350" parent="25" name="naslov">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="351" parent="25" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="352" parent="25" name="slika">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="353" parent="25" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="354" parent="25" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="355" parent="25" name="projekat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="356" parent="25" name="osoba">
+        <columns>osoba</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="357" parent="25" name="projekat">
+        <columns>projekat</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="358" parent="25" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="359" parent="25" name="bl_clanak_ibfk_1">
+        <columns>osoba</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="360" parent="25" name="bl_clanak_ibfk_2">
+        <columns>projekat</columns>
+        <ref-key>~.projekat.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="361" parent="26" name="zadatak">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="362" parent="26" name="buildhost">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="363" parent="26" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="364" parent="26" name="PRIMARY">
+        <columns>zadatak</columns>
+        <primary>1</primary>
+      </key>
+      <column id="365" parent="27" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="366" parent="27" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+        <default-expression>&apos;0000-00-00&apos;</default-expression>
+      </column>
+      <column id="367" parent="27" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>time</data-type>
+        <default-expression>&apos;00:00:00&apos;</default-expression>
+      </column>
+      <column id="368" parent="27" name="labgrupa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="369" parent="27" name="nastavnik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="370" parent="27" name="komponenta">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="371" parent="27" name="kviz">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="372" parent="27" name="komponenta">
+        <columns>komponenta</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="373" parent="27" name="labgrupa">
+        <columns>labgrupa</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="374" parent="27" name="nastavnik">
+        <columns>nastavnik</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="375" parent="27" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="376" parent="27" name="cas_ibfk_6">
+        <columns>labgrupa</columns>
+        <ref-key>~.labgrupa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="377" parent="27" name="cas_ibfk_7">
+        <columns>nastavnik</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="378" parent="27" name="cas_ibfk_8">
+        <columns>komponenta</columns>
+        <ref-key>~.komponenta.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="379" parent="28" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="380" parent="28" name="path">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="381" parent="28" name="aktivan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="382" parent="28" name="godina">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="383" parent="28" name="mjesec">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="384" parent="28" name="dan">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="385" parent="28" name="sat">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="386" parent="28" name="minuta">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="387" parent="28" name="sekunda">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="388" parent="28" name="zadnje_izvrsenje">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="389" parent="28" name="sljedece_izvrsenje">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="390" parent="28" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="391" parent="29" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="392" parent="29" name="cron">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="393" parent="29" name="izlaz">
+        <mandatory>1</mandatory>
+        <data-type>mediumtext</data-type>
+      </column>
+      <column id="394" parent="29" name="return_value">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="395" parent="29" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="396" parent="29" name="cron">
+        <columns>cron</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="397" parent="29" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="398" parent="29" name="cron_rezultat_ibfk_1">
+        <columns>cron</columns>
+        <ref-key>~.cron.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="399" parent="30" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="400" parent="30" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <key id="401" parent="30" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="402" parent="31" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="403" parent="31" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="404" parent="31" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="405" parent="32" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="406" parent="32" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="407" parent="32" name="adresa">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="408" parent="32" name="sistemska">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="409" parent="32" name="osoba">
+        <columns>osoba</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="410" parent="32" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="411" parent="32" name="email_ibfk_1">
+        <columns>osoba</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="412" parent="33" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="413" parent="33" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="414" parent="33" name="jezik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="415" parent="33" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="416" parent="33" name="razumjevanje">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="417" parent="33" name="govor">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="418" parent="33" name="pisanje">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="419" parent="33" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="420" parent="34" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="421" parent="34" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="422" parent="34" name="fk_fakultet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="423" parent="34" name="fk_vrsta_mentora">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="424" parent="34" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="425" parent="34" name="ime_kandidata">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="426" parent="34" name="naziv_teme">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="427" parent="34" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="428" parent="35" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="429" parent="35" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="430" parent="35" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="431" parent="35" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="432" parent="35" name="opis">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="433" parent="35" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="434" parent="36" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="435" parent="36" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="436" parent="36" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="437" parent="36" name="naziv_rada">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="438" parent="36" name="naziv_casopisa">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="439" parent="36" name="naziv_izdavaca">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="440" parent="36" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="441" parent="37" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="442" parent="37" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="443" parent="37" name="fk_tip_publikacije">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="444" parent="37" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="445" parent="37" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="446" parent="37" name="casopis">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="447" parent="37" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="448" parent="38" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="449" parent="38" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="450" parent="38" name="datum_pocetka">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="451" parent="38" name="datum_kraja">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="452" parent="38" name="poslodavac">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="453" parent="38" name="adresa_poslodavca">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="454" parent="38" name="radno_mjesto">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="455" parent="38" name="radno_mjesto_en">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="456" parent="38" name="opis_radnog_mjesta">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="457" parent="38" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="458" parent="39" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="459" parent="39" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="460" parent="39" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="461" parent="39" name="naziv_usavrsavanja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="462" parent="39" name="obrazovna_institucija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="463" parent="39" name="kvalifikacija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="464" parent="39" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="465" parent="40" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="466" parent="40" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="467" parent="40" name="roditelj">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="468" parent="40" name="kratki_naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="469" parent="40" name="tipinstitucije">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="470" parent="40" name="dekan">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="471" parent="40" name="broj_protokola">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="472" parent="40" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="473" parent="41" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="474" parent="41" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="475" parent="41" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="476" parent="41" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+        <default-expression>&apos;0000-00-00&apos;</default-expression>
+      </column>
+      <column id="477" parent="41" name="komponenta">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="478" parent="41" name="vrijemeobjave">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="479" parent="41" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="480" parent="41" name="komponenta">
+        <columns>komponenta</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="481" parent="41" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="482" parent="41" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="483" parent="41" name="ispit_ibfk_3">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="484" parent="41" name="ispit_ibfk_4">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="485" parent="41" name="ispit_ibfk_5">
+        <columns>komponenta</columns>
+        <ref-key>~.komponenta.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="486" parent="42" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="487" parent="42" name="datumvrijeme">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="488" parent="42" name="maxstudenata">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="489" parent="42" name="deadline">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="490" parent="42" name="ispit">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="491" parent="42" name="ispit">
+        <columns>ispit</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="492" parent="42" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="493" parent="42" name="ispit_termin_ibfk_1">
+        <columns>ispit</columns>
+        <ref-key>~.ispit.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="494" parent="43" name="ispit">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="495" parent="43" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="496" parent="43" name="ocjena">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <index id="497" parent="43" name="student">
+        <columns>student</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="498" parent="43" name="PRIMARY">
+        <columns>ispit
+student</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="499" parent="43" name="ispitocjene_ibfk_1">
+        <columns>ispit</columns>
+        <ref-key>~.ispit.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="500" parent="43" name="ispitocjene_ibfk_2">
+        <columns>student</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="501" parent="44" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="502" parent="44" name="fk_naucnonastavno_zvanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="503" parent="44" name="datum_izbora">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="504" parent="44" name="datum_isteka">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="505" parent="44" name="fk_naucna_oblast">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="506" parent="44" name="fk_uza_naucna_oblast">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="507" parent="44" name="dopunski">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="508" parent="44" name="druga_institucija">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="509" parent="45" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="510" parent="45" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="511" parent="45" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="512" parent="45" name="PRIMARY">
+        <columns>id
+predmet</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="513" parent="45" name="izborni_slot_ibfk_1">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="514" parent="46" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="515" parent="46" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="516" parent="46" name="kratki_naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <key id="517" parent="46" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="518" parent="47" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="519" parent="47" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="520" parent="47" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="521" parent="47" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="522" parent="47" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="523" parent="47" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="524" parent="47" name="student">
+        <columns>student
+akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="525" parent="47" name="kolizija_ibfk_1">
+        <columns>student</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="526" parent="47" name="kolizija_ibfk_2">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="527" parent="47" name="kolizija_ibfk_3">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="528" parent="48" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="529" parent="48" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="530" parent="48" name="nastavnik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="531" parent="48" name="labgrupa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="532" parent="48" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="533" parent="48" name="komentar">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <index id="534" parent="48" name="labgrupa">
+        <columns>labgrupa</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="535" parent="48" name="nastavnik">
+        <columns>nastavnik</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="536" parent="48" name="student">
+        <columns>student</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="537" parent="48" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="538" parent="48" name="komentar_ibfk_2">
+        <columns>student</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="539" parent="48" name="komentar_ibfk_3">
+        <columns>nastavnik</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="540" parent="48" name="komentar_ibfk_4">
+        <columns>labgrupa</columns>
+        <ref-key>~.labgrupa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="541" parent="49" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="542" parent="49" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="543" parent="49" name="gui_naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="544" parent="49" name="kratki_gui_naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="545" parent="49" name="tipkomponente">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="546" parent="49" name="maxbodova">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="547" parent="49" name="prolaz">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="548" parent="49" name="opcija">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="549" parent="49" name="uslov">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="550" parent="49" name="tipkomponente">
+        <columns>tipkomponente</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="551" parent="49" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="552" parent="49" name="komponenta_ibfk_1">
+        <columns>tipkomponente</columns>
+        <ref-key>~.tipkomponente.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="553" parent="50" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="554" parent="50" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="555" parent="50" name="komponenta">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="556" parent="50" name="bodovi">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <index id="557" parent="50" name="komponenta">
+        <columns>komponenta</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="558" parent="50" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="559" parent="50" name="PRIMARY">
+        <columns>student
+predmet
+komponenta</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="560" parent="50" name="komponentebodovi_ibfk_1">
+        <columns>student</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="561" parent="50" name="komponentebodovi_ibfk_2">
+        <columns>predmet</columns>
+        <ref-key>~.ponudakursa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="562" parent="50" name="komponentebodovi_ibfk_3">
+        <columns>komponenta</columns>
+        <ref-key>~.komponenta.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="563" parent="51" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="564" parent="51" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="565" parent="51" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="566" parent="51" name="ocjena">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="567" parent="51" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="568" parent="51" name="datum_u_indeksu">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="569" parent="51" name="odluka">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="570" parent="51" name="datum_provjeren">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="571" parent="51" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="572" parent="51" name="odluka">
+        <columns>odluka</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="573" parent="51" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="574" parent="51" name="PRIMARY">
+        <columns>student
+predmet</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="575" parent="51" name="konacna_ocjena_ibfk_1">
+        <columns>student</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="576" parent="51" name="konacna_ocjena_ibfk_2">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="577" parent="51" name="konacna_ocjena_ibfk_3">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="578" parent="51" name="konacna_ocjena_ibfk_4">
+        <columns>odluka</columns>
+        <ref-key>~.odluka.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="579" parent="52" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="580" parent="52" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="581" parent="52" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="582" parent="52" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="583" parent="52" name="vrijeme_pocetak">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="584" parent="52" name="vrijeme_kraj">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="585" parent="52" name="labgrupa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="586" parent="52" name="ip_adrese">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="587" parent="52" name="prolaz_bodova">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="588" parent="52" name="broj_pitanja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="589" parent="52" name="trajanje_kviza">
+        <comment>u sekundama</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="590" parent="52" name="aktivan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <index id="591" parent="52" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="592" parent="52" name="labgrupa">
+        <columns>labgrupa</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="593" parent="52" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="594" parent="52" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="595" parent="52" name="kviz_ibfk_1">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="596" parent="52" name="kviz_ibfk_2">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="597" parent="52" name="kviz_ibfk_3">
+        <columns>labgrupa</columns>
+        <ref-key>~.labgrupa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="598" parent="53" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="599" parent="53" name="kviz_pitanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="600" parent="53" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="601" parent="53" name="tacan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="602" parent="53" name="vidljiv">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="603" parent="53" name="kviz_pitanje">
+        <columns>kviz_pitanje</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="604" parent="53" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="605" parent="54" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="606" parent="54" name="kviz">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="607" parent="54" name="tip">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;mcsa&apos;, &apos;mcma&apos;, &apos;tekstualno&apos;)</data-type>
+        <default-expression>&apos;mcsa&apos;</default-expression>
+      </column>
+      <column id="608" parent="54" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="609" parent="54" name="bodova">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="610" parent="54" name="vidljivo">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="611" parent="54" name="ukupno">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="612" parent="54" name="tacnih">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="613" parent="54" name="kviz">
+        <columns>kviz</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="614" parent="54" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="615" parent="54" name="kviz_pitanje_ibfk_1">
+        <columns>kviz</columns>
+        <ref-key>~.kviz.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="616" parent="55" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="617" parent="55" name="kviz">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="618" parent="55" name="dovrsen">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="619" parent="55" name="bodova">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="620" parent="55" name="vrijeme_aktivacije">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="621" parent="55" name="PRIMARY">
+        <columns>student
+kviz</columns>
+        <primary>1</primary>
+      </key>
+      <column id="622" parent="56" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="623" parent="56" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="624" parent="56" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="625" parent="56" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="626" parent="56" name="virtualna">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="627" parent="56" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="628" parent="56" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="629" parent="56" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="630" parent="56" name="labgrupa_ibfk_1">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="631" parent="56" name="labgrupa_ibfk_2">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="632" parent="57" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="633" parent="57" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="634" parent="57" name="userid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="635" parent="57" name="dogadjaj">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="636" parent="57" name="nivo">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <index id="637" parent="57" name="dogadjaj">
+        <columns>dogadjaj</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="638" parent="57" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="639" parent="58" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="640" parent="58" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="641" parent="58" name="opcina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="642" parent="58" name="drzava">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="643" parent="58" name="opcina_van_bih">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <index id="644" parent="58" name="drzava">
+        <columns>drzava</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="645" parent="58" name="opcina">
+        <columns>opcina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="646" parent="58" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="647" parent="58" name="mjesto_ibfk_1">
+        <columns>drzava</columns>
+        <ref-key>~.drzava.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="648" parent="59" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="649" parent="59" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="650" parent="59" name="moodle_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="651" parent="60" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="652" parent="60" name="vrstanovosti">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="653" parent="60" name="moodle_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="654" parent="60" name="sadrzaj">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="655" parent="60" name="vrijeme_promjene">
+        <mandatory>1</mandatory>
+        <data-type>bigint(10) unsigned</data-type>
+      </column>
+      <index id="656" parent="60" name="moodle_id">
+        <columns>moodle_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="657" parent="60" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="658" parent="61" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="659" parent="61" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="660" parent="61" name="moguc_upis">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="661" parent="61" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="662" parent="62" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="663" parent="62" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="664" parent="62" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="665" parent="63" name="nastavnik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="666" parent="63" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="667" parent="63" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="668" parent="63" name="nivo_pristupa">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;nastavnik&apos;, &apos;super_asistent&apos;, &apos;asistent&apos;)</data-type>
+        <default-expression>&apos;asistent&apos;</default-expression>
+      </column>
+      <index id="669" parent="63" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="670" parent="63" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="671" parent="63" name="PRIMARY">
+        <columns>nastavnik
+akademska_godina
+predmet</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="672" parent="63" name="nastavnik_predmet_ibfk_1">
+        <columns>nastavnik</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="673" parent="63" name="nastavnik_predmet_ibfk_2">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="674" parent="63" name="nastavnik_predmet_ibfk_3">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="675" parent="64" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="676" parent="64" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="677" parent="64" name="broj_protokola">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="678" parent="64" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="679" parent="64" name="student">
+        <columns>student</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="680" parent="64" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="681" parent="64" name="odluka_ibfk_1">
+        <columns>student</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="682" parent="65" name="nastavnik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="683" parent="65" name="labgrupa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="684" parent="65" name="zavrsnirad">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="685" parent="65" name="labgrupa">
+        <columns>labgrupa</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="686" parent="65" name="PRIMARY">
+        <columns>nastavnik
+labgrupa</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="687" parent="65" name="ogranicenje_ibfk_2">
+        <columns>nastavnik</columns>
+        <ref-key>~.osoba.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="688" parent="65" name="ogranicenje_ibfk_3">
+        <columns>labgrupa</columns>
+        <ref-key>~.labgrupa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="689" parent="66" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="690" parent="66" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="691" parent="66" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="692" parent="67" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="693" parent="67" name="ime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="694" parent="67" name="prezime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="695" parent="67" name="imeoca">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="696" parent="67" name="prezimeoca">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="697" parent="67" name="imemajke">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="698" parent="67" name="prezimemajke">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="699" parent="67" name="spol">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;M&apos;, &apos;Z&apos;, &apos;&apos;)</data-type>
+      </column>
+      <column id="700" parent="67" name="brindexa">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="701" parent="67" name="datum_rodjenja">
+        <data-type>date</data-type>
+      </column>
+      <column id="702" parent="67" name="mjesto_rodjenja">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="703" parent="67" name="nacionalnost">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="704" parent="67" name="drzavljanstvo">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="705" parent="67" name="boracke_kategorije">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="706" parent="67" name="jmbg">
+        <mandatory>1</mandatory>
+        <data-type>varchar(14)</data-type>
+      </column>
+      <column id="707" parent="67" name="adresa">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="708" parent="67" name="adresa_mjesto">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="709" parent="67" name="telefon">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="710" parent="67" name="kanton">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="711" parent="67" name="treba_brisati">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="712" parent="67" name="fk_akademsko_zvanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;5&apos;</default-expression>
+      </column>
+      <column id="713" parent="67" name="fk_naucni_stepen">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;6&apos;</default-expression>
+      </column>
+      <column id="714" parent="67" name="slika">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="715" parent="67" name="djevojacko_prezime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="716" parent="67" name="maternji_jezik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="717" parent="67" name="vozacka_dozvola">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="718" parent="67" name="nacin_stanovanja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="719" parent="67" name="adresa_mjesto">
+        <columns>adresa_mjesto</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="720" parent="67" name="drzavljanstvo">
+        <columns>drzavljanstvo</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="721" parent="67" name="kanton">
+        <columns>kanton</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="722" parent="67" name="mjesto_rodjenja">
+        <columns>mjesto_rodjenja</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="723" parent="67" name="nacionalnost">
+        <columns>nacionalnost</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="724" parent="67" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="725" parent="67" name="osoba_ibfk_3">
+        <columns>mjesto_rodjenja</columns>
+        <ref-key>~.mjesto.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="726" parent="67" name="osoba_ibfk_4">
+        <columns>adresa_mjesto</columns>
+        <ref-key>~.mjesto.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="727" parent="68" name="godina_vazenja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="728" parent="68" name="studij">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="729" parent="68" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="730" parent="68" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="731" parent="68" name="obavezan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="732" parent="69" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="733" parent="69" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="734" parent="69" name="studij">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="735" parent="69" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="736" parent="69" name="obavezan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="737" parent="69" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="738" parent="69" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="739" parent="69" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="740" parent="69" name="studij">
+        <columns>studij</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="741" parent="69" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="742" parent="69" name="ponudakursa_ibfk_1">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="743" parent="69" name="ponudakursa_ibfk_2">
+        <columns>studij</columns>
+        <ref-key>~.studij.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="744" parent="69" name="ponudakursa_ibfk_3">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="745" parent="70" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="746" parent="70" name="tip">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="747" parent="70" name="opseg">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="748" parent="70" name="primalac">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="749" parent="70" name="posiljalac">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="750" parent="70" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="751" parent="70" name="ref">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="752" parent="70" name="naslov">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="753" parent="70" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="754" parent="70" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="755" parent="71" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="756" parent="71" name="sifra">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="757" parent="71" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="758" parent="71" name="institucija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="759" parent="71" name="kratki_naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="760" parent="71" name="tippredmeta">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="761" parent="71" name="ects">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="762" parent="71" name="sati_predavanja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="763" parent="71" name="sati_vjezbi">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="764" parent="71" name="sati_tutorijala">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="765" parent="71" name="institucija">
+        <columns>institucija</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="766" parent="71" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="767" parent="71" name="predmet_ibfk_1">
+        <columns>institucija</columns>
+        <ref-key>~.institucija.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="768" parent="72" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="769" parent="72" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="770" parent="72" name="min_timova">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="771" parent="72" name="max_timova">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="772" parent="72" name="min_clanova_tima">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="773" parent="72" name="max_clanova_tima">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="774" parent="72" name="zakljucani_projekti">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(2)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="775" parent="72" name="PRIMARY">
+        <columns>predmet
+akademska_godina</columns>
+        <primary>1</primary>
+      </key>
+      <column id="776" parent="73" name="korisnik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="777" parent="73" name="preferenca">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="778" parent="73" name="vrijednost">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="779" parent="74" name="prijemni_termin">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="780" parent="74" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="781" parent="74" name="sifra">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="782" parent="74" name="jezik">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;bs&apos;, &apos;en&apos;)</data-type>
+        <default-expression>&apos;bs&apos;</default-expression>
+      </column>
+      <column id="783" parent="75" name="prijemni_termin">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="784" parent="75" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="785" parent="75" name="broj_dosjea">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="786" parent="75" name="nacin_studiranja">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="787" parent="75" name="studij_prvi">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="788" parent="75" name="studij_drugi">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="789" parent="75" name="studij_treci">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="790" parent="75" name="studij_cetvrti">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="791" parent="75" name="izasao">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="792" parent="75" name="rezultat">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <key id="793" parent="75" name="PRIMARY">
+        <columns>prijemni_termin
+osoba</columns>
+        <primary>1</primary>
+      </key>
+      <column id="794" parent="76" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="795" parent="76" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="796" parent="76" name="datum">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="797" parent="76" name="ciklus_studija">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <key id="798" parent="76" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="799" parent="77" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="800" parent="77" name="cas">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="801" parent="77" name="prisutan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="802" parent="77" name="plus_minus">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(2)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="803" parent="77" name="PRIMARY">
+        <columns>student
+cas</columns>
+        <primary>1</primary>
+      </key>
+      <column id="804" parent="78" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="805" parent="78" name="privilegija">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="806" parent="79" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="807" parent="79" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="808" parent="79" name="ciklus">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="809" parent="79" name="naziv_predmeta">
+        <mandatory>1</mandatory>
+        <data-type>varchar(250)</data-type>
+      </column>
+      <column id="810" parent="79" name="sifra_predmeta">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="811" parent="79" name="ects">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="812" parent="79" name="ocjena">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="813" parent="79" name="odluka">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="814" parent="79" name="strana_institucija">
+        <mandatory>1</mandatory>
+        <data-type>varchar(250)</data-type>
+      </column>
+      <column id="815" parent="80" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="816" parent="80" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="817" parent="80" name="geshi">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="818" parent="80" name="ekstenzija">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="819" parent="80" name="ace">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="820" parent="80" name="kompajler">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="821" parent="80" name="opcije_kompajlera">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="822" parent="80" name="opcije_kompajlera_debug">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="823" parent="80" name="debugger">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="824" parent="80" name="profiler">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="825" parent="80" name="opcije_profilera">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <key id="826" parent="80" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="827" parent="81" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="828" parent="81" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="829" parent="81" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="830" parent="81" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="831" parent="81" name="opis">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="832" parent="81" name="biljeska">
+        <data-type>text</data-type>
+      </column>
+      <column id="833" parent="81" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="834" parent="81" name="akademska_godina">
+        <columns>akademska_godina</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="835" parent="81" name="predmet">
+        <columns>predmet</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="836" parent="81" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="837" parent="81" name="projekat_ibfk_1">
+        <columns>predmet</columns>
+        <ref-key>~.predmet.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="838" parent="81" name="projekat_ibfk_2">
+        <columns>akademska_godina</columns>
+        <ref-key>~.akademska_godina.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="839" parent="82" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="840" parent="82" name="filename">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="841" parent="82" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="842" parent="82" name="revizija">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="843" parent="82" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="844" parent="82" name="projekat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="845" parent="82" name="file">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="846" parent="82" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="847" parent="83" name="file">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="848" parent="83" name="diff">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="849" parent="83" name="PRIMARY">
+        <columns>file</columns>
+        <primary>1</primary>
+      </key>
+      <column id="850" parent="84" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="851" parent="84" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="852" parent="84" name="url">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="853" parent="84" name="opis">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="854" parent="84" name="projekat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="855" parent="84" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="856" parent="84" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="857" parent="84" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="858" parent="85" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="859" parent="85" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="860" parent="85" name="url">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="861" parent="85" name="opis">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="862" parent="85" name="projekat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="863" parent="85" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="864" parent="85" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="865" parent="85" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="866" parent="86" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="867" parent="86" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="868" parent="86" name="iz_odsjeka">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="869" parent="86" name="u_odsjek">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="870" parent="86" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="871" parent="86" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="872" parent="87" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="873" parent="87" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="874" parent="87" name="ime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="875" parent="87" name="prezime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="876" parent="87" name="imeoca">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="877" parent="87" name="prezimeoca">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="878" parent="87" name="imemajke">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="879" parent="87" name="prezimemajke">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="880" parent="87" name="spol">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;M&apos;, &apos;Z&apos;, &apos;&apos;)</data-type>
+      </column>
+      <column id="881" parent="87" name="brindexa">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="882" parent="87" name="datum_rodjenja">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="883" parent="87" name="mjesto_rodjenja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="884" parent="87" name="nacionalnost">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="885" parent="87" name="drzavljanstvo">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="886" parent="87" name="boracke_kategorije">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="887" parent="87" name="jmbg">
+        <mandatory>1</mandatory>
+        <data-type>varchar(14)</data-type>
+      </column>
+      <column id="888" parent="87" name="adresa">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="889" parent="87" name="adresa_mjesto">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="890" parent="87" name="telefon">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="891" parent="87" name="kanton">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="892" parent="87" name="fk_akademsko_zvanje">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;5&apos;</default-expression>
+      </column>
+      <column id="893" parent="87" name="fk_naucni_stepen">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;6&apos;</default-expression>
+      </column>
+      <column id="894" parent="87" name="slika">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="895" parent="87" name="djevojacko_prezime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="896" parent="87" name="maternji_jezik">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="897" parent="87" name="vozacka_dozvola">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="898" parent="87" name="mobilni_telefon">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="899" parent="87" name="nacin_stanovanja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="900" parent="87" name="vrijeme_zahtjeva">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="901" parent="87" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="902" parent="88" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="903" parent="88" name="redni_broj">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="904" parent="88" name="ocjena">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(5)</data-type>
+      </column>
+      <column id="905" parent="88" name="ects">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <key id="906" parent="88" name="PRIMARY">
+        <columns>osoba
+redni_broj</columns>
+        <primary>1</primary>
+      </key>
+      <column id="907" parent="89" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="908" parent="89" name="fakultet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="909" parent="89" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="910" parent="89" name="broj_semestara">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="911" parent="89" name="opci_uspjeh">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="912" parent="89" name="dodatni_bodovi">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="913" parent="90" name="idS">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="914" parent="90" name="satS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(13)</data-type>
+      </column>
+      <key id="915" parent="90" name="PRIMARY">
+        <columns>idS</columns>
+        <primary>1</primary>
+      </key>
+      <column id="916" parent="91" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="917" parent="91" name="studij">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="918" parent="91" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="919" parent="91" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="920" parent="91" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="921" parent="92" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="922" parent="92" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="923" parent="92" name="kapacitet">
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="924" parent="92" name="tip">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="925" parent="92" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="926" parent="93" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="927" parent="93" name="raspored">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="928" parent="93" name="dan_u_sedmici">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="929" parent="93" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="930" parent="93" name="vrijeme_pocetak">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="931" parent="93" name="vrijeme_kraj">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="932" parent="93" name="sala">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="933" parent="93" name="tip">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)</data-type>
+        <default-expression>&apos;P&apos;</default-expression>
+      </column>
+      <column id="934" parent="93" name="labgrupa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="935" parent="93" name="dupla">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="936" parent="93" name="isjeckana">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="937" parent="93" name="fini_pocetak">
+        <mandatory>1</mandatory>
+        <data-type>time</data-type>
+      </column>
+      <column id="938" parent="93" name="fini_kraj">
+        <mandatory>1</mandatory>
+        <data-type>time</data-type>
+      </column>
+      <key id="939" parent="93" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="940" parent="94" name="id">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="941" parent="94" name="auth">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="942" parent="94" name="access">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="943" parent="94" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="944" parent="95" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="945" parent="95" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="946" parent="95" name="vrsta_korisnika">
+        <mandatory>1</mandatory>
+        <data-type>enum(&apos;nastavnik&apos;, &apos;student&apos;, &apos;studentska&apos;, &apos;siteadmin&apos;)</data-type>
+        <default-expression>&apos;nastavnik&apos;</default-expression>
+      </column>
+      <key id="947" parent="95" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="948" parent="96" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="949" parent="96" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="950" parent="96" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="951" parent="97" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="952" parent="97" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="953" parent="97" name="titula">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <key id="954" parent="97" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="955" parent="98" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="956" parent="98" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="957" parent="98" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="958" parent="99" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="959" parent="99" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="960" parent="99" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="961" parent="100" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="962" parent="100" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="963" parent="100" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="964" parent="101" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="965" parent="101" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="966" parent="101" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="967" parent="102" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="968" parent="102" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="969" parent="102" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="970" parent="103" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="971" parent="103" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="972" parent="103" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="973" parent="104" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="974" parent="104" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="975" parent="104" name="fk_maticna_institucija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="976" parent="104" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="977" parent="105" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="978" parent="105" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="979" parent="105" name="titula">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <key id="980" parent="105" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="981" parent="106" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="982" parent="106" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="983" parent="106" name="titula">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="984" parent="106" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="985" parent="107" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="986" parent="107" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="987" parent="107" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="988" parent="108" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="989" parent="108" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="990" parent="108" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="991" parent="109" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="992" parent="109" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="993" parent="109" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="994" parent="110" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="995" parent="110" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="996" parent="110" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="997" parent="111" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="998" parent="111" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="999" parent="111" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1000" parent="112" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1001" parent="112" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="1002" parent="112" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1003" parent="113" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1004" parent="113" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="1005" parent="113" name="fk_naucna_oblast">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1006" parent="113" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1007" parent="114" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1008" parent="114" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="1009" parent="114" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1010" parent="115" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1011" parent="115" name="razred">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1012" parent="115" name="redni_broj">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="1013" parent="115" name="ocjena">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(5)</data-type>
+      </column>
+      <column id="1014" parent="115" name="tipocjene">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(5)</data-type>
+      </column>
+      <key id="1015" parent="115" name="PRIMARY">
+        <columns>osoba
+razred
+redni_broj</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1016" parent="116" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1017" parent="116" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="1018" parent="116" name="opcina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1019" parent="116" name="domaca">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <key id="1020" parent="116" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1021" parent="117" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="1022" parent="117" name="zadaca">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1023" parent="117" name="redni_broj">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1024" parent="117" name="ulaz">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="1025" parent="117" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1026" parent="118" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1027" parent="118" name="ispit_termin">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1028" parent="118" name="PRIMARY">
+        <columns>student
+ispit_termin</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1029" parent="119" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1030" parent="119" name="labgrupa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="1031" parent="119" name="PRIMARY">
+        <columns>student
+labgrupa</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1032" parent="120" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1033" parent="120" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1034" parent="120" name="PRIMARY">
+        <columns>student
+predmet</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1035" parent="121" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1036" parent="121" name="projekat">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1037" parent="121" name="PRIMARY">
+        <columns>student
+projekat</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1038" parent="122" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1039" parent="122" name="studij">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1040" parent="122" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="1041" parent="122" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1042" parent="122" name="nacin_studiranja">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1043" parent="122" name="ponovac">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1044" parent="122" name="odluka">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1045" parent="122" name="plan_studija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="1046" parent="122" name="PRIMARY">
+        <columns>student
+studij
+semestar
+akademska_godina</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1047" parent="123" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1048" parent="123" name="modul">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="1049" parent="123" name="gui_naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="1050" parent="123" name="novi_prozor">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="1051" parent="123" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1052" parent="124" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1053" parent="124" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1054" parent="124" name="studentski_modul">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1055" parent="124" name="aktivan">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="1056" parent="124" name="PRIMARY">
+        <columns>predmet
+akademska_godina
+studentski_modul</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1057" parent="125" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1058" parent="125" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="1059" parent="125" name="zavrsni_semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1060" parent="125" name="institucija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1061" parent="125" name="kratkinaziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="1062" parent="125" name="moguc_upis">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1063" parent="125" name="tipstudija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1064" parent="125" name="preduslov">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1065" parent="125" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1066" parent="126" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1067" parent="126" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="1068" parent="126" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1069" parent="127" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1070" parent="127" name="naziv">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="1071" parent="127" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1072" parent="128" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1073" parent="128" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1074" parent="128" name="opis_opcija">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="1075" parent="128" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1076" parent="129" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1077" parent="129" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="1078" parent="129" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1079" parent="130" name="tippredmeta">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1080" parent="130" name="komponenta">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1081" parent="131" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1082" parent="131" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="1083" parent="131" name="ciklus">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="1084" parent="131" name="trajanje">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="1085" parent="131" name="moguc_upis">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1086" parent="132" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1087" parent="132" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1088" parent="132" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1089" parent="132" name="studij">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1090" parent="132" name="semestar">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+      </column>
+      <key id="1091" parent="132" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1092" parent="133" name="ugovoroucenju">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1093" parent="133" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1094" parent="134" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1095" parent="134" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1096" parent="134" name="kapacitet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1097" parent="134" name="kapacitet_ekstra">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1098" parent="135" name="prijemni_termin">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1099" parent="135" name="donja_granica">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="1100" parent="135" name="gornja_granica">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="1101" parent="135" name="kandidati_strani">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="1102" parent="135" name="kandidati_sami_placaju">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="1103" parent="135" name="kandidati_kanton_placa">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="1104" parent="135" name="kandidati_vanredni">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="1105" parent="135" name="prijemni_max">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="1106" parent="135" name="studij">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1107" parent="135" name="PRIMARY">
+        <columns>prijemni_termin
+studij</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1108" parent="136" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1109" parent="136" name="srednja_skola">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1110" parent="136" name="godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1111" parent="136" name="opci_uspjeh">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="1112" parent="136" name="kljucni_predmeti">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="1113" parent="136" name="dodatni_bodovi">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="1114" parent="136" name="ucenik_generacije">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="1115" parent="136" name="PRIMARY">
+        <columns>osoba</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1116" parent="137" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1117" parent="137" name="fk_osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1118" parent="137" name="fk_vozacki_kategorija">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1119" parent="137" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1120" parent="138" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1121" parent="138" name="code">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="1122" parent="138" name="osoba">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="1123" parent="138" name="code">
+        <columns>code</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="1124" parent="138" name="osoba">
+        <columns>osoba</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="1125" parent="138" name="code">
+        <columns>code</columns>
+        <underlying-index>code</underlying-index>
+      </key>
+      <key id="1126" parent="138" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1127" parent="139" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1128" parent="139" name="osoba">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1129" parent="139" name="token">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <index id="1130" parent="139" name="osoba">
+        <columns>osoba</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="1131" parent="139" name="token">
+        <columns>token</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="1132" parent="139" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="1133" parent="139" name="token">
+        <columns>token</columns>
+        <underlying-index>token</underlying-index>
+      </key>
+      <column id="1134" parent="140" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1135" parent="140" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="1136" parent="140" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1137" parent="140" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1138" parent="140" name="zadataka">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1139" parent="140" name="bodova">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1140" parent="140" name="rok">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="1141" parent="140" name="aktivna">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1142" parent="140" name="programskijezik">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1143" parent="140" name="automatsko_testiranje">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1144" parent="140" name="attachment">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1145" parent="140" name="dozvoljene_ekstenzije">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="1146" parent="140" name="postavka_zadace">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="1147" parent="140" name="komponenta">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1148" parent="140" name="vrijemeobjave">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="1149" parent="140" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1150" parent="141" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(11)</data-type>
+      </column>
+      <column id="1151" parent="141" name="zadaca">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1152" parent="141" name="redni_broj">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1153" parent="141" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1154" parent="141" name="status">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1155" parent="141" name="bodova">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1156" parent="141" name="izvjestaj_skripte">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="1157" parent="141" name="vrijeme">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="1158" parent="141" name="komentar">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="1159" parent="141" name="filename">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="1160" parent="141" name="userid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="1161" parent="141" name="uobicajen">
+        <columns>zadaca
+redni_broj
+student</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="1162" parent="141" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1163" parent="142" name="zadatak">
+        <mandatory>1</mandatory>
+        <data-type>bigint(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1164" parent="142" name="diff">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="1165" parent="142" name="PRIMARY">
+        <columns>zadatak</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1166" parent="143" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1167" parent="143" name="student">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1168" parent="143" name="tip_potvrde">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1169" parent="143" name="svrha_potvrde">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1170" parent="143" name="datum_zahtjeva">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="1171" parent="143" name="status">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1172" parent="143" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1173" parent="144" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1174" parent="144" name="naslov">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="1175" parent="144" name="podnaslov">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="1176" parent="144" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1177" parent="144" name="rad_na_predmetu">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1178" parent="144" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1179" parent="144" name="kratki_pregled">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="1180" parent="144" name="literatura">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="1181" parent="144" name="sazetak">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="1182" parent="144" name="summary">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="1183" parent="144" name="mentor">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1184" parent="144" name="student">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1185" parent="144" name="kandidat_potvrdjen">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1186" parent="144" name="biljeska">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="1187" parent="144" name="predsjednik_komisije">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1188" parent="144" name="clan_komisije">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1189" parent="144" name="termin_odbrane">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="1190" parent="144" name="konacna_ocjena">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;5&apos;</default-expression>
+      </column>
+      <column id="1191" parent="144" name="broj_diplome">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="1192" parent="144" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1193" parent="145" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1194" parent="145" name="naslov">
+        <mandatory>1</mandatory>
+        <data-type>varchar(300)</data-type>
+      </column>
+      <column id="1195" parent="145" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="1196" parent="145" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1197" parent="145" name="tema">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1198" parent="145" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1199" parent="146" name="post">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1200" parent="146" name="tekst">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="1201" parent="146" name="PRIMARY">
+        <columns>post</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1202" parent="147" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1203" parent="147" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="1204" parent="147" name="prvi_post">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1205" parent="147" name="zadnji_post">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1206" parent="147" name="pregleda">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1207" parent="147" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1208" parent="147" name="zavrsni">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1209" parent="147" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1210" parent="148" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1211" parent="148" name="filename">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="1212" parent="148" name="vrijeme">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="1213" parent="148" name="revizija">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1214" parent="148" name="osoba">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1215" parent="148" name="zavrsni">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1216" parent="148" name="file">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="1217" parent="148" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1218" parent="149" name="file">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1219" parent="149" name="diff">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="1220" parent="149" name="PRIMARY">
+        <columns>file</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1221" parent="150" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1222" parent="150" name="naziv">
+        <mandatory>1</mandatory>
+        <data-type>varchar(11)</data-type>
+        <default-expression>&apos;Završni rad&apos;</default-expression>
+      </column>
+      <column id="1223" parent="150" name="predmet">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="1224" parent="150" name="akademska_godina">
+        <mandatory>1</mandatory>
+        <data-type>varchar(9)</data-type>
+      </column>
+      <column id="1225" parent="150" name="student">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="1226" parent="150" name="nastavnik">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
