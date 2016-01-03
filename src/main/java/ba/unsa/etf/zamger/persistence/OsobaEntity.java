@@ -1,5 +1,7 @@
 package ba.unsa.etf.zamger.persistence;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -45,13 +45,13 @@ public class PersonController {
         }
         return "User succesfully deleted!";
     }
-
-    @RequestMapping("/get-by-email")
+*/
+    @RequestMapping("/get-by-ime")
     @ResponseBody
-    public String getByEmail(String email) {
+    public String getByIme(String ime) {
         String userId = "";
         try {
-            OsobaEntity user = userDao.findByEmail(email);
+            OsobaEntity user = userDao.findByIme(ime);
             userId = String.valueOf(user.getId());
         }
         catch (Exception ex) {
@@ -60,7 +60,7 @@ public class PersonController {
         return "The user id is: " + userId;
     }
 
-
+/*
     @RequestMapping("/update")
     @ResponseBody
     public String updateUser(long id, String email, String name) {

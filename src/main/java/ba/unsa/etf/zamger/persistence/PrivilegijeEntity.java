@@ -1,9 +1,6 @@
 package ba.unsa.etf.zamger.persistence;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by CogoEmir on 1/3/2016.
@@ -13,6 +10,17 @@ import javax.persistence.Table;
 public class PrivilegijeEntity {
     private int osoba;
     private String privilegija;
+    private int id;
+
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @Basic
     @Column(name = "osoba")

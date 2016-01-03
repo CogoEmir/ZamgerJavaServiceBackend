@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import ba.unsa.etf.zamger.serviceresources.StartTestHello;
+import ba.unsa.etf.zamger.serviceresources.AuthResource;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -30,7 +30,7 @@ public class UnitTestTestHello {
 
     @Before
     public void setUp() throws Exception {
-        mvc = MockMvcBuilders.standaloneSetup(new StartTestHello()).build();
+        mvc = MockMvcBuilders.standaloneSetup(new AuthResource()).build();
     }
 
     @Test

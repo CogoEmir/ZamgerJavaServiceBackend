@@ -1,9 +1,6 @@
 package ba.unsa.etf.zamger.persistence;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.sql.Date;
 
 /**
@@ -12,6 +9,7 @@ import java.sql.Date;
 @Entity
 @Table(name = "izbor", schema = "zamger", catalog = "")
 public class IzborEntity {
+    private int id;
     private int fkOsoba;
     private int fkNaucnonastavnoZvanje;
     private Date datumIzbora;
@@ -20,6 +18,17 @@ public class IzborEntity {
     private int fkUzaNaucnaOblast;
     private byte dopunski;
     private byte drugaInstitucija;
+
+
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @Basic
     @Column(name = "fk_osoba")

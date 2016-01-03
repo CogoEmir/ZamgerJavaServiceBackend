@@ -1,9 +1,6 @@
 package ba.unsa.etf.zamger.persistence;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by CogoEmir on 1/3/2016.
@@ -11,10 +8,21 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "kolizija", schema = "zamger", catalog = "")
 public class KolizijaEntity {
+    private int id;
     private int student;
     private int akademskaGodina;
     private int semestar;
     private int predmet;
+
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @Basic
     @Column(name = "student")
